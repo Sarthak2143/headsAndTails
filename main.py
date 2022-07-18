@@ -22,7 +22,7 @@ for i in range(num):
     elif guess == 1:
         heads += 1
 
-print(num, "times.")
+print("Tossing", num, "times.")
 print(heads, "heads.")
 print("Probablity of getting head:", round((heads/num)*100,2))
 print(tails, "tails.")        
