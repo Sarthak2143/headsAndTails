@@ -25,7 +25,11 @@ for i in range(num):
 print("Tossing", num, "times.")
 print(heads, "heads.")
 print("Probablity of getting head:", round((heads/num)*100,2))
+print("Increased percentage of getting head:",
+        round((heads/num)*100, 2) - 50)
 print(tails, "tails.")        
 print("Probablity of getting tail:", round((tails/num)*100,2))
 
+print("Increased percentage of getting tail:",
+        round((tails/num)*100, 2) - 50)
 print(int(abs(num/2 - heads)), "times unfair.")
